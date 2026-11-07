@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+*.tmp
+**/smoke/
+1_P6_chon_phan_hoach/*/results/raw/
