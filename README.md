@@ -1,7 +1,6 @@
 # Coding_KLTN
 
 Code và kết quả thực nghiệm luận văn. Mọi kết quả chạy trên máy cá nhân (VS Code, CPU). Mỗi thí nghiệm có giao thức/kế hoạch khóa SHA-256 **trước** khi chạy chính thức: xem `*_lock.json`, `*.sha256` và dòng khóa trong `logs/*.log`.
-Lưu ý: commit Git được tạo sau khi chạy. Bằng chứng giao thức viết trước kết quả là hash và giờ khóa trong log, không phải thời điểm commit.
 
 ## Cấu trúc
 
