@@ -1,0 +1,100 @@
+[11:08:47] Đã khóa giao thức: {"D12_PLAN.md": "e80b6db2e4a665642d13bdeab68fc9944eb7f02e422b55c6f83e1ad3d3cda9b3", "d12.py": "32d4fe8d0090ecb3bdf8cd4fcceccfa5debf396fd2a90291f196726075393b8d", "h0b.py": "65733476fa4cca03bb52a737c7b1246dc477fab0ec6420e84500fdc55e480da1", "h0lib.py": "237f9723b913d38482bc7976490de1274e3962c23a822fedba862b2ade5b6395", "config.py": "568aaa0d7e773bd0a2d3264b318ad36d3845d4c5c453642e074f9325065c4462"}
+[11:08:47] === 48 việc, 21 tiến trình ===
+[11:09:33] [D2] si_t lfr_mu0.3_0: XONG 4830 dòng, p=None, 39s
+[11:09:33] --- Tiến độ 1/48 (0.8 phút; còn ~36 phút) ---
+[11:09:33] [D2] ic_T lfr_mu0.1_0: XONG 4830 dòng, p=0.35496304508350884, 38s
+[11:09:34] --- Tiến độ 2/48 (0.8 phút; còn ~18 phút) ---
+[11:09:33] [D2] si_t lfr_mu0.1_0: XONG 4830 dòng, p=None, 39s
+[11:09:34] --- Tiến độ 3/48 (0.8 phút; còn ~12 phút) ---
+[11:09:38] [D2] ic_T lfr_mu0.5_0: XONG 4830 dòng, p=0.28773712355970243, 43s
+[11:09:38] --- Tiến độ 4/48 (0.9 phút; còn ~9 phút) ---
+[11:09:44] [D2] ic_T email_eu: XONG 4830 dòng, p=0.04348211950099159, 53s
+[11:09:44] --- Tiến độ 5/48 (1.0 phút; còn ~8 phút) ---
+[11:11:18] [D2] ic_T lfr_mu0.3_0: XONG 4830 dòng, p=0.28773712355970243, 143s
+[11:11:18] --- Tiến độ 6/48 (2.5 phút; còn ~18 phút) ---
+[11:11:25] [D2] si_t lfr_mu0.5_0: XONG 4830 dòng, p=None, 150s
+[11:11:25] --- Tiến độ 7/48 (2.6 phút; còn ~15 phút) ---
+[11:11:38] [D2] si_t email_eu: XONG 4830 dòng, p=None, 167s
+[11:11:38] --- Tiến độ 8/48 (2.9 phút; còn ~14 phút) ---
+[11:11:47] [D1] ic_T email_eu k=1: XONG 140 cascade, p=0.04829523982920678, 174s
+[11:11:47] --- Tiến độ 9/48 (3.0 phút; còn ~13 phút) ---
+[11:11:48] [D1] ic_T lfr_mu0.1_0 k=8: XONG 140 cascade, p=0.17022674260386958, 135s
+[11:11:48] --- Tiến độ 10/48 (3.0 phút; còn ~11 phút) ---
+[11:11:49] [D1] ic_T email_eu k=8: XONG 140 cascade, p=0.0352471057615339, 177s
+[11:11:49] --- Tiến độ 11/48 (3.0 phút; còn ~10 phút) ---
+[11:11:49] [D1] ic_T lfr_mu0.3_0 k=8: XONG 140 cascade, p=0.1532618864787106, 135s
+[11:11:49] --- Tiến độ 12/48 (3.0 phút; còn ~9 phút) ---
+[11:11:49] [D1] ic_T lfr_mu0.5_0 k=8: XONG 140 cascade, p=0.1532618864787106, 135s
+[11:11:49] --- Tiến độ 13/48 (3.0 phút; còn ~8 phút) ---
+[11:11:50] [D1] si_t email_eu k=8: XONG 140 cascade, p=None, 179s
+[11:11:50] --- Tiến độ 14/48 (3.0 phút; còn ~7 phút) ---
+[11:11:50] [D1] ic_T email_eu k=2: XONG 140 cascade, p=0.04829523982920678, 178s
+[11:11:50] --- Tiến độ 15/48 (3.1 phút; còn ~7 phút) ---
+[11:11:51] [D1] ic_T email_eu k=5: XONG 140 cascade, p=0.039148676411688635, 179s
+[11:11:51] --- Tiến độ 16/48 (3.1 phút; còn ~6 phút) ---
+[11:11:52] [D1] si_t lfr_mu0.1_0 k=5: XONG 140 cascade, p=None, 134s
+[11:11:52] --- Tiến độ 17/48 (3.1 phút; còn ~6 phút) ---
+[11:11:53] [D1] si_t email_eu k=1: XONG 140 cascade, p=None, 180s
+[11:11:53] --- Tiến độ 18/48 (3.1 phút; còn ~5 phút) ---
+[11:11:54] [D1] si_t email_eu k=2: XONG 140 cascade, p=None, 181s
+[11:11:54] --- Tiến độ 19/48 (3.1 phút; còn ~5 phút) ---
+[11:11:54] [D1] si_t lfr_mu0.3_0 k=5: XONG 140 cascade, p=None, 130s
+[11:11:54] --- Tiến độ 20/48 (3.1 phút; còn ~4 phút) ---
+[11:13:21] [D1] si_t lfr_mu0.1_0 k=8: XONG 140 cascade, p=None, 265s
+[11:13:21] --- Tiến độ 21/48 (4.6 phút; còn ~6 phút) ---
+[11:13:24] [D1] ic_T lfr_mu0.5_0 k=5: XONG 140 cascade, p=0.17022674260386958, 97s
+[11:13:24] --- Tiến độ 22/48 (4.6 phút; còn ~5 phút) ---
+[11:13:36] [D1] si_t lfr_mu0.3_0 k=8: XONG 140 cascade, p=None, 276s
+[11:13:36] --- Tiến độ 23/48 (4.8 phút; còn ~5 phút) ---
+[11:13:36] [D1] si_t lfr_mu0.1_0 k=3: XONG 140 cascade, p=None, 108s
+[11:13:36] --- Tiến độ 24/48 (4.8 phút; còn ~5 phút) ---
+[11:13:37] [D1] ic_T lfr_mu0.1_0 k=3: XONG 140 cascade, p=0.2332430190160601, 108s
+[11:13:37] --- Tiến độ 25/48 (4.8 phút; còn ~4 phút) ---
+[11:13:37] [D1] si_t lfr_mu0.5_0 k=3: XONG 140 cascade, p=None, 108s
+[11:13:37] --- Tiến độ 26/48 (4.8 phút; còn ~4 phút) ---
+[11:13:38] [D1] ic_T lfr_mu0.1_0 k=2: XONG 140 cascade, p=0.2590611421692997, 104s
+[11:13:38] --- Tiến độ 27/48 (4.9 phút; còn ~4 phút) ---
+[11:13:38] [D1] si_t lfr_mu0.3_0 k=2: XONG 140 cascade, p=None, 106s
+[11:13:38] --- Tiến độ 28/48 (4.9 phút; còn ~3 phút) ---
+[11:13:38] [D1] ic_T lfr_mu0.3_0 k=3: XONG 140 cascade, p=0.1890694716298513, 109s
+[11:13:38] --- Tiến độ 29/48 (4.9 phút; còn ~3 phút) ---
+[11:13:39] [D1] ic_T lfr_mu0.5_0 k=3: XONG 140 cascade, p=0.1890694716298513, 108s
+[11:13:39] --- Tiến độ 30/48 (4.9 phút; còn ~3 phút) ---
+[11:13:40] [D1] ic_T lfr_mu0.3_0 k=2: XONG 140 cascade, p=0.2332430190160601, 106s
+[11:13:40] --- Tiến độ 31/48 (4.9 phút; còn ~3 phút) ---
+[11:13:41] [D1] si_t lfr_mu0.1_0 k=2: XONG 140 cascade, p=None, 109s
+[11:13:41] --- Tiến độ 32/48 (4.9 phút; còn ~2 phút) ---
+[11:13:41] [D1] si_t lfr_mu0.5_0 k=8: XONG 140 cascade, p=None, 276s
+[11:13:41] --- Tiến độ 33/48 (4.9 phút; còn ~2 phút) ---
+[11:13:41] [D1] si_t lfr_mu0.5_0 k=2: XONG 140 cascade, p=None, 108s
+[11:13:41] --- Tiến độ 34/48 (4.9 phút; còn ~2 phút) ---
+[11:13:41] [D1] si_t lfr_mu0.3_0 k=3: XONG 140 cascade, p=None, 112s
+[11:13:41] --- Tiến độ 35/48 (4.9 phút; còn ~2 phút) ---
+[11:14:04] [D1] si_t lfr_mu0.1_0 k=1: XONG 140 cascade, p=None, 40s
+[11:14:04] --- Tiến độ 36/48 (5.3 phút; còn ~2 phút) ---
+[11:14:06] [D1] ic_T email_eu k=3: XONG 140 cascade, p=0.04348211950099159, 313s
+[11:14:06] --- Tiến độ 37/48 (5.3 phút; còn ~2 phút) ---
+[11:14:08] [D1] si_t email_eu k=3: XONG 140 cascade, p=None, 315s
+[11:14:08] --- Tiến độ 38/48 (5.3 phút; còn ~1 phút) ---
+[11:14:09] [D1] si_t lfr_mu0.5_0 k=5: XONG 140 cascade, p=None, 171s
+[11:14:09] --- Tiến độ 39/48 (5.4 phút; còn ~1 phút) ---
+[11:14:10] [D1] ic_T lfr_mu0.1_0 k=5: XONG 140 cascade, p=0.2099979389582618, 165s
+[11:14:10] --- Tiến độ 40/48 (5.4 phút; còn ~1 phút) ---
+[11:14:13] [D1] ic_T lfr_mu0.3_0 k=5: XONG 140 cascade, p=0.17022674260386958, 155s
+[11:14:13] --- Tiến độ 41/48 (5.4 phút; còn ~1 phút) ---
+[11:14:16] [D1] si_t email_eu k=5: XONG 140 cascade, p=None, 324s
+[11:14:16] --- Tiến độ 42/48 (5.5 phút; còn ~1 phút) ---
+[11:14:16] [D1] ic_T lfr_mu0.1_0 k=1: XONG 140 cascade, p=0.3195873050706517, 39s
+[11:14:16] --- Tiến độ 43/48 (5.5 phút; còn ~1 phút) ---
+[11:14:16] [D1] ic_T lfr_mu0.5_0 k=1: XONG 140 cascade, p=0.2332430190160601, 38s
+[11:14:16] --- Tiến độ 44/48 (5.5 phút; còn ~0 phút) ---
+[11:14:16] [D1] si_t lfr_mu0.5_0 k=1: XONG 140 cascade, p=None, 40s
+[11:14:16] --- Tiến độ 45/48 (5.5 phút; còn ~0 phút) ---
+[11:14:16] [D1] ic_T lfr_mu0.3_0 k=1: XONG 140 cascade, p=0.2590611421692997, 39s
+[11:14:16] --- Tiến độ 46/48 (5.5 phút; còn ~0 phút) ---
+[11:14:22] [D1] ic_T lfr_mu0.5_0 k=2: XONG 140 cascade, p=0.2590611421692997, 62s
+[11:14:22] --- Tiến độ 47/48 (5.6 phút; còn ~0 phút) ---
+[11:14:24] [D1] si_t lfr_mu0.3_0 k=1: XONG 140 cascade, p=None, 49s
+[11:14:24] --- Tiến độ 48/48 (5.6 phút; còn ~0 phút) ---
+[11:14:30] Đã viết .\D12_REPORT.md
+[11:14:30] === D12 XONG ===
