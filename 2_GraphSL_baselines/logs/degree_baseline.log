@@ -1,0 +1,14 @@
+[16:53:59] degree_baseline.py bắt đầu
+[16:54:03] [goc] karate     Degree topk_k_that  acc=0.953 pr=0.867 re=0.867 f1=0.867 auc=0.986
+[16:54:03] [goc] karate     Degree nguong_train acc=0.971 pr=0.857 re=1.000 f1=0.923 auc=0.986
+[16:54:10] [goc] jazz       Degree topk_k_that  acc=0.927 pr=0.815 re=0.815 f1=0.815 auc=0.972
+[16:54:10] [goc] jazz       Degree nguong_train acc=0.904 pr=0.672 re=1.000 f1=0.804 auc=0.972
+[16:54:25] [goc] netscience Degree topk_k_that  acc=0.920 pr=0.801 re=0.801 f1=0.801 auc=0.964
+[16:54:25] [goc] netscience Degree nguong_train acc=0.860 pr=0.588 re=1.000 f1=0.741 auc=0.964
+[16:54:28] [va] karate     Degree topk_k_that  acc=0.953 pr=0.867 re=0.867 f1=0.867 auc=0.986
+[16:54:28] [va] karate     Degree nguong_train acc=0.971 pr=0.857 re=1.000 f1=0.923 auc=0.986
+[16:54:34] [va] jazz       Degree topk_k_that  acc=0.927 pr=0.815 re=0.815 f1=0.815 auc=0.972
+[16:54:34] [va] jazz       Degree nguong_train acc=0.904 pr=0.672 re=1.000 f1=0.804 auc=0.972
+[16:54:52] [va] netscience Degree topk_k_that  acc=0.920 pr=0.801 re=0.801 f1=0.801 auc=0.964
+[16:54:53] [va] netscience Degree nguong_train acc=0.860 pr=0.588 re=1.000 f1=0.741 auc=0.964
+[16:54:53] XONG. Kết quả: results\degree_baseline.csv

@@ -1,0 +1,3 @@
+GraphSL==0.15
+six
+matplotlib
