@@ -1,0 +1,35 @@
+[03:07:23] H0c_fix bắt đầu | smoke=False | workers=8 | seed=4040
+[03:07:23]   SHA-256 H0c_PLAN.md: 141f611607e0b1a155bfcdfbb98be8182b60e9c7e80c43317114680f5a6b36ac
+[03:07:23]   SHA-256 BUGFIX.md: 7ddfd30fd7672550e2ccffabc72f4f4aacf22dc0520955290e66eb3b3a985399
+[03:07:23]   SHA-256 h0c.py: fe2a5e4e67a349f0c0a8cf83e191045ee092834d0a233098a7fc7a975100ac3a
+[03:07:23]   SHA-256 h0b.py: 65733476fa4cca03bb52a737c7b1246dc477fab0ec6420e84500fdc55e480da1
+[03:07:23]   SHA-256 h0lib.py: 237f9723b913d38482bc7976490de1274e3962c23a822fedba862b2ade5b6395
+[03:07:23]   SHA-256 config.py: 568aaa0d7e773bd0a2d3264b318ad36d3845d4c5c453642e074f9325065c4462
+[03:07:23] === 12 việc (2 quan sát × 2 đặt nguồn × 3 đồ thị), 100 cascade mỗi k ===
+[03:57:15] [ic_T|random] lfr_mu0.1: XONG 22800 dòng, 2990s
+[03:57:15] --- Tiến độ: 1/12 (49.9 phút) ---
+[03:57:16] [ic_T|spread] lfr_mu0.1: XONG 22800 dòng, 2989s
+[03:57:17] --- Tiến độ: 2/12 (49.9 phút) ---
+[03:58:21] [si_t|random] lfr_mu0.1: XONG 22800 dòng, 3051s
+[03:58:21] --- Tiến độ: 3/12 (51.0 phút) ---
+[04:20:58] [ic_T|random] lfr_mu0.3: XONG 22800 dòng, 4412s
+[04:20:58] --- Tiến độ: 4/12 (73.6 phút) ---
+[04:21:44] [ic_T|spread] lfr_mu0.3: XONG 22800 dòng, 4454s
+[04:21:44] --- Tiến độ: 5/12 (74.3 phút) ---
+[04:22:44] [si_t|random] lfr_mu0.3: XONG 22800 dòng, 4508s
+[04:22:44] --- Tiến độ: 6/12 (75.3 phút) ---
+[04:35:46] [ic_T|spread] lfr_mu0.5: XONG 22800 dòng, 5296s
+[04:35:46] --- Tiến độ: 7/12 (88.4 phút) ---
+[04:36:07] [si_t|spread] lfr_mu0.1: XONG 22800 dòng, 2330s
+[04:36:07] --- Tiến độ: 8/12 (88.7 phút) ---
+[04:38:08] [ic_T|random] lfr_mu0.5: XONG 22800 dòng, 5441s
+[04:38:08] --- Tiến độ: 9/12 (90.8 phút) ---
+[04:48:29] [si_t|spread] lfr_mu0.3: XONG 22800 dòng, 3008s
+[04:48:29] --- Tiến độ: 10/12 (101.1 phút) ---
+[04:50:56] [si_t|random] lfr_mu0.5: XONG 22800 dòng, 3221s
+[04:50:56] --- Tiến độ: 11/12 (103.5 phút) ---
+[04:51:21] [si_t|spread] lfr_mu0.5: XONG 22800 dòng, 1823s
+[04:51:21] --- Tiến độ: 12/12 (104.0 phút) ---
+[04:51:44] Đã viết H0c_fix_REPORT.md
+[04:51:44] KẾT LUẬN: NO-GO mạnh: không tổ hợp hợp lệ nào đạt Đ2
+[04:51:44] === H0c_fix XONG ===
