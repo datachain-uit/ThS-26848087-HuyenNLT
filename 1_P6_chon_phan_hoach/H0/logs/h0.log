@@ -1,0 +1,390 @@
+[08:50:28] H0 bắt đầu | smoke=False | seed=2026 | python 3.11.9 | networkx 3.6.1 | CPU 22
+[08:50:28] === PREPARE: sinh đồ thị và phân hoạch (trước khi sinh cascade) ===
+[08:50:37]   lfr_mu0.1_0: n=1000 m=5024 cộng đồng thật=20 | số cộng đồng Louvain 1–24 | NMI [-0.0, 0.996] | 8.9s
+[08:50:45]   lfr_mu0.1_1: n=1000 m=5086 cộng đồng thật=23 | số cộng đồng Louvain 1–27 | NMI [-0.0, 1.0] | 7.9s
+[08:50:51]   lfr_mu0.1_2: n=1000 m=5044 cộng đồng thật=21 | số cộng đồng Louvain 1–24 | NMI [0.0, 1.0] | 6.0s
+[08:50:57]   lfr_mu0.1_3: n=1000 m=5191 cộng đồng thật=24 | số cộng đồng Louvain 1–24 | NMI [0.0, 1.0] | 5.9s
+[08:51:04]   lfr_mu0.1_4: n=1000 m=5381 cộng đồng thật=23 | số cộng đồng Louvain 1–24 | NMI [-0.0, 0.998] | 7.1s
+[08:51:14]   lfr_mu0.3_0: n=1000 m=5320 cộng đồng thật=18 | số cộng đồng Louvain 1–50 | NMI [0.0, 0.943] | 10.1s
+[08:51:25]   lfr_mu0.3_1: n=1000 m=5123 cộng đồng thật=25 | số cộng đồng Louvain 1–41 | NMI [0.0, 0.968] | 10.7s
+[08:51:34]   lfr_mu0.3_2: n=1000 m=5210 cộng đồng thật=24 | số cộng đồng Louvain 1–46 | NMI [0.0, 0.954] | 8.8s
+[08:51:43]   lfr_mu0.3_3: n=1000 m=5223 cộng đồng thật=22 | số cộng đồng Louvain 1–38 | NMI [0.0, 0.951] | 9.1s
+[08:51:52]   lfr_mu0.3_4: n=1000 m=5362 cộng đồng thật=20 | số cộng đồng Louvain 1–45 | NMI [0.0, 0.958] | 8.8s
+[08:52:03]   lfr_mu0.5_0: n=1000 m=5442 cộng đồng thật=20 | số cộng đồng Louvain 1–91 | NMI [0.0, 0.413] | 11.5s
+[08:52:14]   lfr_mu0.5_1: n=1000 m=5249 cộng đồng thật=26 | số cộng đồng Louvain 1–98 | NMI [0.0, 0.459] | 11.3s
+[08:52:24]   lfr_mu0.5_2: n=1000 m=5365 cộng đồng thật=27 | số cộng đồng Louvain 1–92 | NMI [0.0, 0.497] | 9.6s
+[08:52:35]   lfr_mu0.5_3: n=1000 m=5489 cộng đồng thật=24 | số cộng đồng Louvain 1–93 | NMI [0.0, 0.461] | 11.2s
+[08:52:48]   lfr_mu0.5_4: n=1000 m=5464 cộng đồng thật=21 | số cộng đồng Louvain 1–95 | NMI [0.0, 0.399] | 13.1s
+[08:53:02]   email_eu: n=986 m=16064 cộng đồng thật=42 | số cộng đồng Louvain 1–68 | NMI [-0.0, 0.761] | 14.1s
+[08:53:02] Đã lưu 16 đồ thị vào .\data
+[08:53:02] === RUN: 16 đồ thị, 21 tiến trình ===
+[08:58:09] [lfr_mu0.1_2] k=1: p=0.1119, tỉ lệ cascade đạt 10-20% = 0.08
+[08:58:16] [lfr_mu0.1_1] k=1: p=0.1119, tỉ lệ cascade đạt 10-20% = 0.07
+[08:58:22] [lfr_mu0.1_0] k=1: p=0.1119, tỉ lệ cascade đạt 10-20% = 0.07
+[08:58:44] [lfr_mu0.3_0] k=1: p=0.0907, tỉ lệ cascade đạt 10-20% = 0.08
+[08:58:50] [lfr_mu0.1_4] k=1: p=0.1007, tỉ lệ cascade đạt 10-20% = 0.09
+[08:58:54] [lfr_mu0.3_2] k=1: p=0.1007, tỉ lệ cascade đạt 10-20% = 0.09
+[08:58:57] [lfr_mu0.1_3] k=1: p=0.1007, tỉ lệ cascade đạt 10-20% = 0.09
+[08:59:05] [lfr_mu0.3_3] k=1: p=0.0907, tỉ lệ cascade đạt 10-20% = 0.10
+[08:59:11] [lfr_mu0.3_1] k=1: p=0.1007, tỉ lệ cascade đạt 10-20% = 0.07
+[08:59:13] [lfr_mu0.5_0] k=1: p=0.0907, tỉ lệ cascade đạt 10-20% = 0.07
+[08:59:21] [lfr_mu0.3_4] k=1: p=0.0907, tỉ lệ cascade đạt 10-20% = 0.08
+[08:59:33] [lfr_mu0.5_1] k=1: p=0.0907, tỉ lệ cascade đạt 10-20% = 0.11
+[08:59:33] [lfr_mu0.5_2] k=1: p=0.0907, tỉ lệ cascade đạt 10-20% = 0.12
+[08:59:34] [lfr_mu0.1_1] k=1: val CommJordan chọn rho=1: ED=0.56 |k̂-k|=58.3
+[08:59:34] [lfr_mu0.1_1] k=1: val Jordan     chọn rho=1: ED=0.54 |k̂-k|=58.0
+[08:59:36] [lfr_mu0.1_2] k=1: val CommJordan chọn rho=1: ED=0.52 |k̂-k|=57.2
+[08:59:36] [lfr_mu0.1_2] k=1: val Jordan     chọn rho=1: ED=0.60 |k̂-k|=58.5
+[08:59:36] [lfr_mu0.3_0] k=1: val CommJordan chọn rho=1: ED=0.52 |k̂-k|=71.2
+[08:59:36] [lfr_mu0.3_0] k=1: val Jordan     chọn rho=1: ED=0.54 |k̂-k|=61.8
+[08:59:37] [lfr_mu0.5_3] k=1: p=0.0907, tỉ lệ cascade đạt 10-20% = 0.05
+[08:59:38] [lfr_mu0.1_0] k=1: val CommJordan chọn rho=1: ED=0.58 |k̂-k|=61.6
+[08:59:38] [lfr_mu0.1_0] k=1: val Jordan     chọn rho=1: ED=0.58 |k̂-k|=61.2
+[08:59:40]   CẢNH BÁO: k=1 tỉ lệ chấp nhận cao nhất chỉ 0.03 (p=0.0907)
+[08:59:41] [lfr_mu0.5_4] k=1: p=0.0907, tỉ lệ cascade đạt 10-20% = 0.03
+[08:59:44] [lfr_mu0.3_3] k=1: val CommJordan chọn rho=1: ED=0.46 |k̂-k|=66.9
+[08:59:44] [lfr_mu0.3_3] k=1: val Jordan     chọn rho=1: ED=0.64 |k̂-k|=60.6
+[08:59:47] [lfr_mu0.3_2] k=1: val CommJordan chọn rho=1: ED=0.46 |k̂-k|=73.0
+[08:59:48] [lfr_mu0.3_2] k=1: val Jordan     chọn rho=1: ED=0.52 |k̂-k|=64.4
+[08:59:48] [lfr_mu0.5_0] k=1: val CommJordan chọn rho=1: ED=0.44 |k̂-k|=86.7
+[08:59:49] [lfr_mu0.5_0] k=1: val Jordan     chọn rho=1: ED=0.50 |k̂-k|=65.6
+[08:59:51] [email_eu] k=1: p=0.0188, tỉ lệ cascade đạt 10-20% = 0.11
+[08:59:55] [lfr_mu0.1_3] k=1: val CommJordan chọn rho=1: ED=0.70 |k̂-k|=54.3
+[08:59:56] [lfr_mu0.1_3] k=1: val Jordan     chọn rho=1: ED=0.60 |k̂-k|=55.7
+[08:59:56] [lfr_mu0.5_2] k=1: val CommJordan chọn rho=1: ED=0.38 |k̂-k|=86.5
+[08:59:56] [lfr_mu0.5_2] k=1: val Jordan     chọn rho=1: ED=0.54 |k̂-k|=65.4
+[09:00:05] [lfr_mu0.3_4] k=1: val CommJordan chọn rho=1: ED=0.50 |k̂-k|=74.3
+[09:00:05] [lfr_mu0.3_4] k=1: val Jordan     chọn rho=1: ED=0.58 |k̂-k|=63.6
+[09:00:06] [lfr_mu0.1_4] k=1: val CommJordan chọn rho=1: ED=0.64 |k̂-k|=59.4
+[09:00:07] [lfr_mu0.1_4] k=1: val Jordan     chọn rho=1: ED=0.56 |k̂-k|=60.0
+[09:00:08] [lfr_mu0.5_4] k=1: val CommJordan chọn rho=1: ED=0.46 |k̂-k|=84.3
+[09:00:08] [lfr_mu0.5_4] k=1: val Jordan     chọn rho=1: ED=0.58 |k̂-k|=62.7
+[09:00:08] [lfr_mu0.5_3] k=1: val CommJordan chọn rho=1: ED=0.42 |k̂-k|=87.2
+[09:00:08] [lfr_mu0.5_3] k=1: val Jordan     chọn rho=1: ED=0.58 |k̂-k|=65.6
+[09:00:12] [lfr_mu0.5_1] k=1: val CommJordan chọn rho=1: ED=0.46 |k̂-k|=82.4
+[09:00:12] [lfr_mu0.5_1] k=1: val Jordan     chọn rho=1: ED=0.58 |k̂-k|=62.2
+[09:00:14] [lfr_mu0.3_1] k=1: val CommJordan chọn rho=1: ED=0.60 |k̂-k|=76.6
+[09:00:14] [lfr_mu0.3_1] k=1: val Jordan     chọn rho=1: ED=0.52 |k̂-k|=66.8
+[09:00:23] [email_eu] k=1: val CommJordan chọn rho=1: ED=0.70 |k̂-k|=37.3
+[09:00:24] [email_eu] k=1: val Jordan     chọn rho=1: ED=0.76 |k̂-k|=32.2
+[09:01:44] [lfr_mu0.1_2] k=1: 50/200 cascade test xong (518s)
+[09:01:52] [lfr_mu0.1_0] k=1: 50/200 cascade test xong (526s)
+[09:02:02] [lfr_mu0.1_1] k=1: 50/200 cascade test xong (536s)
+[09:02:04] [lfr_mu0.3_3] k=1: 50/200 cascade test xong (509s)
+[09:02:14] [lfr_mu0.3_0] k=1: 50/200 cascade test xong (542s)
+[09:02:23] [lfr_mu0.3_2] k=1: 50/200 cascade test xong (538s)
+[09:02:49] [lfr_mu0.5_0] k=1: 50/200 cascade test xong (548s)
+[09:02:54] [lfr_mu0.5_2] k=1: 50/200 cascade test xong (500s)
+[09:03:39] [lfr_mu0.1_3] k=1: 50/200 cascade test xong (627s)
+[09:03:50] [lfr_mu0.3_4] k=1: 50/200 cascade test xong (612s)
+[09:04:00] [lfr_mu0.1_4] k=1: 50/200 cascade test xong (648s)
+[09:04:07] [lfr_mu0.1_2] k=1: 100/200 cascade test xong (660s)
+[09:04:09] [lfr_mu0.1_0] k=1: 100/200 cascade test xong (663s)
+[09:04:44] [lfr_mu0.3_3] k=1: 100/200 cascade test xong (668s)
+[09:04:44] [lfr_mu0.1_1] k=1: 100/200 cascade test xong (698s)
+[09:04:45] [lfr_mu0.3_0] k=1: 100/200 cascade test xong (692s)
+[09:04:48] [email_eu] k=1: 50/200 cascade test xong (549s)
+[09:04:51] [lfr_mu0.3_1] k=1: 50/200 cascade test xong (690s)
+[09:04:54] [lfr_mu0.5_1] k=1: 50/200 cascade test xong (632s)
+[09:05:16] [lfr_mu0.5_3] k=1: 50/200 cascade test xong (633s)
+[09:05:20] [lfr_mu0.5_4] k=1: 50/200 cascade test xong (599s)
+[09:05:22] [lfr_mu0.3_2] k=1: 100/200 cascade test xong (717s)
+[09:05:50] [lfr_mu0.5_0] k=1: 100/200 cascade test xong (729s)
+[09:06:03] [lfr_mu0.5_2] k=1: 100/200 cascade test xong (689s)
+[09:06:21] [lfr_mu0.1_2] k=1: 150/200 cascade test xong (794s)
+[09:06:25] [lfr_mu0.1_0] k=1: 150/200 cascade test xong (800s)
+[09:06:57] [lfr_mu0.1_1] k=1: 150/200 cascade test xong (831s)
+[09:07:02] [lfr_mu0.3_3] k=1: 150/200 cascade test xong (807s)
+[09:07:03] [lfr_mu0.3_0] k=1: 150/200 cascade test xong (831s)
+[09:07:33] [lfr_mu0.1_3] k=1: 100/200 cascade test xong (861s)
+[09:07:50] [lfr_mu0.3_2] k=1: 150/200 cascade test xong (865s)
+[09:07:53] [lfr_mu0.1_4] k=1: 100/200 cascade test xong (881s)
+[09:07:54] [lfr_mu0.3_4] k=1: 100/200 cascade test xong (857s)
+[09:08:28] [lfr_mu0.1_2] k=1: 200/200 cascade test xong (921s)
+[09:08:35] [lfr_mu0.1_0] k=1: 200/200 cascade test xong (929s)
+[09:08:38] [lfr_mu0.1_2] k=3: p=0.1007, tỉ lệ cascade đạt 10-20% = 0.23
+[09:08:45] [lfr_mu0.1_0] k=3: p=0.1007, tỉ lệ cascade đạt 10-20% = 0.20
+[09:08:52] [lfr_mu0.3_1] k=1: 100/200 cascade test xong (932s)
+[09:09:00] [email_eu] k=1: 100/200 cascade test xong (801s)
+[09:09:01] [lfr_mu0.1_2] k=3: val CommJordan chọn rho=1: ED=0.54 |k̂-k|=50.0
+[09:09:01] [lfr_mu0.1_2] k=3: val Jordan     chọn rho=1: ED=0.51 |k̂-k|=51.4
+[09:09:03] [lfr_mu0.5_2] k=1: 150/200 cascade test xong (869s)
+[09:09:04] [lfr_mu0.5_0] k=1: 150/200 cascade test xong (923s)
+[09:09:08] [lfr_mu0.1_0] k=3: val CommJordan chọn rho=1: ED=0.52 |k̂-k|=53.9
+[09:09:08] [lfr_mu0.1_0] k=3: val Jordan     chọn rho=1: ED=0.46 |k̂-k|=54.4
+[09:09:15] [lfr_mu0.5_1] k=1: 100/200 cascade test xong (894s)
+[09:09:21] [lfr_mu0.1_1] k=1: 200/200 cascade test xong (975s)
+[09:09:28] [lfr_mu0.3_0] k=1: 200/200 cascade test xong (976s)
+[09:09:28] [lfr_mu0.1_1] k=3: p=0.1007, tỉ lệ cascade đạt 10-20% = 0.19
+[09:09:33] [lfr_mu0.3_3] k=1: 200/200 cascade test xong (957s)
+[09:09:35] [lfr_mu0.3_0] k=3: p=0.0816, tỉ lệ cascade đạt 10-20% = 0.17
+[09:09:41] [lfr_mu0.3_3] k=3: p=0.0907, tỉ lệ cascade đạt 10-20% = 0.23
+[09:09:43] [lfr_mu0.5_3] k=1: 100/200 cascade test xong (900s)
+[09:09:53] [lfr_mu0.1_1] k=3: val CommJordan chọn rho=1: ED=0.42 |k̂-k|=55.8
+[09:09:53] [lfr_mu0.1_1] k=3: val Jordan     chọn rho=1: ED=0.39 |k̂-k|=56.1
+[09:09:55] [lfr_mu0.3_0] k=3: val CommJordan chọn rho=1: ED=0.35 |k̂-k|=66.2
+[09:09:55] [lfr_mu0.3_0] k=3: val Jordan     chọn rho=1: ED=0.45 |k̂-k|=56.8
+[09:10:04] [lfr_mu0.3_3] k=3: val CommJordan chọn rho=1: ED=0.41 |k̂-k|=65.8
+[09:10:05] [lfr_mu0.3_3] k=3: val Jordan     chọn rho=1: ED=0.44 |k̂-k|=58.1
+[09:10:14] [lfr_mu0.5_4] k=1: 100/200 cascade test xong (893s)
+[09:10:28] [lfr_mu0.3_2] k=1: 200/200 cascade test xong (1023s)
+[09:10:35] [lfr_mu0.3_2] k=3: p=0.1007, tỉ lệ cascade đạt 10-20% = 0.15
+[09:10:58] [lfr_mu0.1_3] k=1: 150/200 cascade test xong (1066s)
+[09:11:08] [lfr_mu0.1_4] k=1: 150/200 cascade test xong (1076s)
+[09:11:14] [lfr_mu0.3_2] k=3: val CommJordan chọn rho=1: ED=0.46 |k̂-k|=68.3
+[09:11:14] [lfr_mu0.3_2] k=3: val Jordan     chọn rho=1: ED=0.49 |k̂-k|=59.1
+[09:11:18] [lfr_mu0.1_2] k=3: 50/200 cascade test xong (1091s)
+[09:11:18] [lfr_mu0.1_0] k=3: 50/200 cascade test xong (1093s)
+[09:11:34] [lfr_mu0.3_4] k=1: 150/200 cascade test xong (1076s)
+[09:11:56] [lfr_mu0.5_2] k=1: 200/200 cascade test xong (1042s)
+[09:12:07] [lfr_mu0.5_2] k=3: p=0.0907, tỉ lệ cascade đạt 10-20% = 0.15
+[09:12:17] [lfr_mu0.1_1] k=3: 50/200 cascade test xong (1151s)
+[09:12:22] [lfr_mu0.5_0] k=1: 200/200 cascade test xong (1120s)
+[09:12:22] [lfr_mu0.3_0] k=3: 50/200 cascade test xong (1149s)
+[09:12:27] [lfr_mu0.5_2] k=3: val CommJordan chọn rho=1: ED=0.39 |k̂-k|=79.6
+[09:12:28] [lfr_mu0.5_2] k=3: val Jordan     chọn rho=1: ED=0.42 |k̂-k|=61.7
+[09:12:30] [lfr_mu0.3_3] k=3: 50/200 cascade test xong (1135s)
+[09:12:31] [lfr_mu0.5_0] k=3: p=0.0816, tỉ lệ cascade đạt 10-20% = 0.13
+[09:12:45] [lfr_mu0.3_1] k=1: 150/200 cascade test xong (1165s)
+[09:12:46] [email_eu] k=1: 150/200 cascade test xong (1027s)
+[09:12:49] [lfr_mu0.5_0] k=3: val CommJordan chọn rho=1: ED=0.34 |k̂-k|=77.9
+[09:12:49] [lfr_mu0.5_0] k=3: val Jordan     chọn rho=1: ED=0.45 |k̂-k|=59.1
+[09:13:27] [lfr_mu0.1_0] k=3: 100/200 cascade test xong (1221s)
+[09:13:28] [lfr_mu0.1_2] k=3: 100/200 cascade test xong (1221s)
+[09:13:52] [lfr_mu0.5_1] k=1: 150/200 cascade test xong (1170s)
+[09:13:59] [lfr_mu0.3_2] k=3: 50/200 cascade test xong (1234s)
+[09:14:22] [lfr_mu0.1_3] k=1: 200/200 cascade test xong (1271s)
+[09:14:25] [lfr_mu0.1_1] k=3: 100/200 cascade test xong (1279s)
+[09:14:27] [lfr_mu0.5_3] k=1: 150/200 cascade test xong (1184s)
+[09:14:30] [lfr_mu0.1_3] k=3: p=0.1119, tỉ lệ cascade đạt 10-20% = 0.21
+[09:14:35] [lfr_mu0.1_4] k=1: 200/200 cascade test xong (1283s)
+[09:14:41] [lfr_mu0.3_0] k=3: 100/200 cascade test xong (1289s)
+[09:14:42] [lfr_mu0.3_3] k=3: 100/200 cascade test xong (1266s)
+[09:14:44] [lfr_mu0.1_4] k=3: p=0.1007, tỉ lệ cascade đạt 10-20% = 0.18
+[09:14:44] [lfr_mu0.5_4] k=1: 150/200 cascade test xong (1163s)
+[09:15:07] [lfr_mu0.3_4] k=1: 200/200 cascade test xong (1290s)
+[09:15:09] [lfr_mu0.1_3] k=3: val CommJordan chọn rho=1: ED=0.42 |k̂-k|=57.5
+[09:15:09] [lfr_mu0.1_3] k=3: val Jordan     chọn rho=1: ED=0.45 |k̂-k|=60.3
+[09:15:18] [lfr_mu0.3_4] k=3: p=0.0907, tỉ lệ cascade đạt 10-20% = 0.21
+[09:15:19] [lfr_mu0.1_4] k=3: val CommJordan chọn rho=1: ED=0.51 |k̂-k|=52.8
+[09:15:19] [lfr_mu0.1_4] k=3: val Jordan     chọn rho=1: ED=0.43 |k̂-k|=54.1
+[09:15:23] [lfr_mu0.5_2] k=3: 50/200 cascade test xong (1249s)
+[09:15:26] [lfr_mu0.1_2] k=3: 150/200 cascade test xong (1339s)
+[09:15:30] [lfr_mu0.1_0] k=3: 150/200 cascade test xong (1345s)
+[09:15:38] [lfr_mu0.5_0] k=3: 50/200 cascade test xong (1317s)
+[09:15:49] [lfr_mu0.3_4] k=3: val CommJordan chọn rho=1: ED=0.46 |k̂-k|=68.1
+[09:15:49] [lfr_mu0.3_4] k=3: val Jordan     chọn rho=1: ED=0.47 |k̂-k|=61.1
+[09:16:32] [lfr_mu0.3_2] k=3: 100/200 cascade test xong (1387s)
+[09:16:34] [lfr_mu0.3_1] k=1: 200/200 cascade test xong (1393s)
+[09:16:36] [email_eu] k=1: 200/200 cascade test xong (1257s)
+[09:16:41] [lfr_mu0.3_1] k=3: p=0.1007, tỉ lệ cascade đạt 10-20% = 0.23
+[09:16:43] [lfr_mu0.1_1] k=3: 150/200 cascade test xong (1417s)
+[09:16:55] [email_eu] k=3: p=0.0188, tỉ lệ cascade đạt 10-20% = 0.28
+[09:16:56] [lfr_mu0.3_3] k=3: 150/200 cascade test xong (1400s)
+[09:17:02] [lfr_mu0.3_0] k=3: 150/200 cascade test xong (1430s)
+[09:17:23] [lfr_mu0.1_2] k=3: 200/200 cascade test xong (1457s)
+[09:17:28] [lfr_mu0.3_1] k=3: val CommJordan chọn rho=1: ED=0.41 |k̂-k|=71.0
+[09:17:28] [lfr_mu0.3_1] k=3: val Jordan     chọn rho=1: ED=0.41 |k̂-k|=60.6
+[09:17:32] [email_eu] k=3: val CommJordan chọn rho=1: ED=0.59 |k̂-k|=34.9
+[09:17:32] [email_eu] k=3: val Jordan     chọn rho=1: ED=0.59 |k̂-k|=29.5
+[09:17:32] [lfr_mu0.1_0] k=3: 200/200 cascade test xong (1467s)
+[09:17:33] [lfr_mu0.1_2] k=5: p=0.1119, tỉ lệ cascade đạt 10-20% = 0.20
+[09:17:44] [lfr_mu0.1_0] k=5: p=0.1007, tỉ lệ cascade đạt 10-20% = 0.21
+[09:17:58] [lfr_mu0.1_2] k=5: val CommJordan chọn rho=1: ED=0.49 |k̂-k|=55.4
+[09:17:58] [lfr_mu0.1_2] k=5: val Jordan     chọn rho=1: ED=0.48 |k̂-k|=56.4
+[09:18:05] [lfr_mu0.1_0] k=5: val CommJordan chọn rho=1: ED=0.45 |k̂-k|=53.8
+[09:18:05] [lfr_mu0.1_0] k=5: val Jordan     chọn rho=1: ED=0.45 |k̂-k|=56.0
+[09:18:13] [lfr_mu0.5_1] k=1: 200/200 cascade test xong (1432s)
+[09:18:13] [lfr_mu0.5_2] k=3: 100/200 cascade test xong (1419s)
+[09:18:14] [lfr_mu0.5_0] k=3: 100/200 cascade test xong (1473s)
+[09:18:24] [lfr_mu0.5_1] k=3: p=0.0907, tỉ lệ cascade đạt 10-20% = 0.21
+[09:18:35] [lfr_mu0.5_3] k=1: 200/200 cascade test xong (1432s)
+[09:18:45] [lfr_mu0.5_3] k=3: p=0.0816, tỉ lệ cascade đạt 10-20% = 0.20
+[09:18:47] [lfr_mu0.1_3] k=3: 50/200 cascade test xong (1536s)
+[09:18:54] [lfr_mu0.5_4] k=1: 200/200 cascade test xong (1413s)
+[09:18:56] [lfr_mu0.5_1] k=3: val CommJordan chọn rho=1: ED=0.33 |k̂-k|=84.0
+[09:18:56] [lfr_mu0.5_1] k=3: val Jordan     chọn rho=1: ED=0.45 |k̂-k|=62.6
+[09:18:58] [lfr_mu0.1_1] k=3: 200/200 cascade test xong (1552s)
+[09:18:59] [lfr_mu0.3_2] k=3: 150/200 cascade test xong (1534s)
+[09:19:01] [lfr_mu0.3_3] k=3: 200/200 cascade test xong (1526s)
+[09:19:06] [lfr_mu0.1_1] k=5: p=0.1007, tỉ lệ cascade đạt 10-20% = 0.28
+[09:19:08] [lfr_mu0.5_4] k=3: p=0.0907, tỉ lệ cascade đạt 10-20% = 0.19
+[09:19:09] [lfr_mu0.1_4] k=3: 50/200 cascade test xong (1557s)
+[09:19:09] [lfr_mu0.3_3] k=5: p=0.0907, tỉ lệ cascade đạt 10-20% = 0.22
+[09:19:14] [lfr_mu0.3_4] k=3: 50/200 cascade test xong (1536s)
+[09:19:14] [lfr_mu0.3_0] k=3: 200/200 cascade test xong (1561s)
+[09:19:19] [lfr_mu0.5_3] k=3: val CommJordan chọn rho=1: ED=0.36 |k̂-k|=81.8
+[09:19:19] [lfr_mu0.5_3] k=3: val Jordan     chọn rho=1: ED=0.43 |k̂-k|=62.3
+[09:19:25] [lfr_mu0.3_0] k=5: p=0.0907, tỉ lệ cascade đạt 10-20% = 0.25
+[09:19:28] [lfr_mu0.3_3] k=5: val CommJordan chọn rho=1: ED=0.42 |k̂-k|=66.2
+[09:19:28] [lfr_mu0.3_3] k=5: val Jordan     chọn rho=1: ED=0.41 |k̂-k|=58.5
+[09:19:29] [lfr_mu0.1_1] k=5: val CommJordan chọn rho=1: ED=0.53 |k̂-k|=51.5
+[09:19:29] [lfr_mu0.1_1] k=5: val Jordan     chọn rho=1: ED=0.48 |k̂-k|=53.2
+[09:19:32] [lfr_mu0.5_4] k=3: val CommJordan chọn rho=1: ED=0.27 |k̂-k|=85.2
+[09:19:32] [lfr_mu0.5_4] k=3: val Jordan     chọn rho=1: ED=0.38 |k̂-k|=63.1
+[09:19:47] [lfr_mu0.3_0] k=5: val CommJordan chọn rho=1: ED=0.45 |k̂-k|=72.3
+[09:19:47] [lfr_mu0.3_0] k=5: val Jordan     chọn rho=1: ED=0.49 |k̂-k|=60.9
+[09:20:09] [lfr_mu0.1_0] k=5: 50/200 cascade test xong (1623s)
+[09:20:19] [lfr_mu0.1_2] k=5: 50/200 cascade test xong (1632s)
+[09:20:50] [lfr_mu0.5_0] k=3: 150/200 cascade test xong (1629s)
+[09:21:16] [lfr_mu0.5_2] k=3: 150/200 cascade test xong (1602s)
+[09:21:21] [lfr_mu0.3_1] k=3: 50/200 cascade test xong (1680s)
+[09:21:39] [lfr_mu0.1_1] k=5: 50/200 cascade test xong (1713s)
+[09:21:43] [lfr_mu0.3_2] k=3: 200/200 cascade test xong (1698s)
+[09:21:47] [email_eu] k=3: 50/200 cascade test xong (1568s)
+[09:21:48] [lfr_mu0.3_2] k=5: p=0.0907, tỉ lệ cascade đạt 10-20% = 0.25
+[09:21:52] [lfr_mu0.3_3] k=5: 50/200 cascade test xong (1696s)
+[09:22:14] [lfr_mu0.1_0] k=5: 100/200 cascade test xong (1749s)
+[09:22:14] [lfr_mu0.3_0] k=5: 50/200 cascade test xong (1742s)
+[09:22:16] [lfr_mu0.3_2] k=5: val CommJordan chọn rho=1: ED=0.40 |k̂-k|=65.3
+[09:22:17] [lfr_mu0.3_2] k=5: val Jordan     chọn rho=1: ED=0.44 |k̂-k|=57.1
+[09:22:29] [lfr_mu0.1_3] k=3: 100/200 cascade test xong (1757s)
+[09:22:31] [lfr_mu0.1_2] k=5: 100/200 cascade test xong (1764s)
+[09:22:46] [lfr_mu0.1_4] k=3: 100/200 cascade test xong (1774s)
+[09:22:55] [lfr_mu0.3_4] k=3: 100/200 cascade test xong (1757s)
+[09:24:00] [lfr_mu0.5_0] k=3: 200/200 cascade test xong (1819s)
+[09:24:00] [lfr_mu0.5_1] k=3: 50/200 cascade test xong (1779s)
+[09:24:09] [lfr_mu0.5_3] k=3: 50/200 cascade test xong (1766s)
+[09:24:10] [lfr_mu0.1_1] k=5: 100/200 cascade test xong (1864s)
+[09:24:11] [lfr_mu0.5_0] k=5: p=0.0816, tỉ lệ cascade đạt 10-20% = 0.30
+[09:24:29] [lfr_mu0.5_0] k=5: val CommJordan chọn rho=1: ED=0.36 |k̂-k|=83.6
+[09:24:29] [lfr_mu0.5_0] k=5: val Jordan     chọn rho=1: ED=0.50 |k̂-k|=61.7
+[09:24:31] [lfr_mu0.3_3] k=5: 100/200 cascade test xong (1855s)
+[09:24:36] [lfr_mu0.5_2] k=3: 200/200 cascade test xong (1802s)
+[09:24:47] [lfr_mu0.1_0] k=5: 150/200 cascade test xong (1902s)
+[09:24:48] [lfr_mu0.5_2] k=5: p=0.0816, tỉ lệ cascade đạt 10-20% = 0.23
+[09:24:53] [lfr_mu0.5_4] k=3: 50/200 cascade test xong (1772s)
+[09:24:56] [lfr_mu0.3_2] k=5: 50/200 cascade test xong (1891s)
+[09:25:04] [lfr_mu0.3_0] k=5: 100/200 cascade test xong (1912s)
+[09:25:09] [lfr_mu0.5_2] k=5: val CommJordan chọn rho=1: ED=0.30 |k̂-k|=79.2
+[09:25:09] [lfr_mu0.5_2] k=5: val Jordan     chọn rho=1: ED=0.40 |k̂-k|=59.8
+[09:25:13] [lfr_mu0.1_2] k=5: 150/200 cascade test xong (1926s)
+[09:25:20] [lfr_mu0.3_1] k=3: 100/200 cascade test xong (1919s)
+[09:26:10] [email_eu] k=3: 100/200 cascade test xong (1831s)
+[09:26:37] [lfr_mu0.1_1] k=5: 150/200 cascade test xong (2011s)
+[09:26:40] [lfr_mu0.1_3] k=3: 150/200 cascade test xong (2008s)
+[09:26:43] [lfr_mu0.1_4] k=3: 150/200 cascade test xong (2011s)
+[09:26:54] [lfr_mu0.3_4] k=3: 150/200 cascade test xong (1996s)
+[09:27:04] [lfr_mu0.1_0] k=5: 200/200 cascade test xong (2039s)
+[09:27:09] [lfr_mu0.1_0] XONG: 34200 dòng, 2043s
+[09:27:09] --- Tiến độ: 1/16 đồ thị (34.1 phút) ---
+[09:27:24] [lfr_mu0.3_3] k=5: 150/200 cascade test xong (2028s)
+[09:27:44] [lfr_mu0.1_2] k=5: 200/200 cascade test xong (2077s)
+[09:27:44] [lfr_mu0.1_2] XONG: 34200 dòng, 2077s
+[09:27:44] --- Tiến độ: 2/16 đồ thị (34.7 phút) ---
+[09:27:49] [lfr_mu0.3_2] k=5: 100/200 cascade test xong (2064s)
+[09:27:59] [lfr_mu0.5_0] k=5: 50/200 cascade test xong (2058s)
+[09:28:02] [lfr_mu0.3_0] k=5: 150/200 cascade test xong (2089s)
+[09:28:21] [lfr_mu0.5_2] k=5: 50/200 cascade test xong (2027s)
+[09:28:27] [lfr_mu0.5_3] k=3: 100/200 cascade test xong (2025s)
+[09:28:36] [lfr_mu0.5_1] k=3: 100/200 cascade test xong (2055s)
+[09:29:05] [lfr_mu0.1_1] k=5: 200/200 cascade test xong (2159s)
+[09:29:07] [lfr_mu0.1_1] XONG: 34200 dòng, 2161s
+[09:29:07] --- Tiến độ: 3/16 đồ thị (36.1 phút) ---
+[09:29:11] [lfr_mu0.3_1] k=3: 150/200 cascade test xong (2150s)
+[09:29:44] [lfr_mu0.3_3] k=5: 200/200 cascade test xong (2168s)
+[09:29:47] [lfr_mu0.3_3] XONG: 34200 dòng, 2171s
+[09:29:47] --- Tiến độ: 4/16 đồ thị (36.7 phút) ---
+[09:30:05] [lfr_mu0.5_4] k=3: 100/200 cascade test xong (2084s)
+[09:30:24] [email_eu] k=3: 150/200 cascade test xong (2085s)
+[09:30:31] [lfr_mu0.1_4] k=3: 200/200 cascade test xong (2238s)
+[09:30:31] [lfr_mu0.3_2] k=5: 150/200 cascade test xong (2226s)
+[09:30:35] [lfr_mu0.3_4] k=3: 200/200 cascade test xong (2217s)
+[09:30:39] [lfr_mu0.1_3] k=3: 200/200 cascade test xong (2247s)
+[09:30:42] [lfr_mu0.1_4] k=5: p=0.1007, tỉ lệ cascade đạt 10-20% = 0.31
+[09:30:48] [lfr_mu0.3_4] k=5: p=0.0907, tỉ lệ cascade đạt 10-20% = 0.31
+[09:30:49] [lfr_mu0.1_3] k=5: p=0.1007, tỉ lệ cascade đạt 10-20% = 0.24
+[09:31:02] [lfr_mu0.3_0] k=5: 200/200 cascade test xong (2270s)
+[09:31:06] [lfr_mu0.3_0] XONG: 34200 dòng, 2273s
+[09:31:06] --- Tiến độ: 5/16 đồ thị (38.1 phút) ---
+[09:31:24] [lfr_mu0.1_4] k=5: val CommJordan chọn rho=1: ED=0.42 |k̂-k|=53.1
+[09:31:25] [lfr_mu0.1_4] k=5: val Jordan     chọn rho=1: ED=0.40 |k̂-k|=54.3
+[09:31:29] [lfr_mu0.3_4] k=5: val CommJordan chọn rho=1: ED=0.43 |k̂-k|=69.0
+[09:31:29] [lfr_mu0.3_4] k=5: val Jordan     chọn rho=1: ED=0.44 |k̂-k|=59.9
+[09:31:31] [lfr_mu0.1_3] k=5: val CommJordan chọn rho=1: ED=0.51 |k̂-k|=51.7
+[09:31:31] [lfr_mu0.1_3] k=5: val Jordan     chọn rho=1: ED=0.48 |k̂-k|=54.2
+[09:31:43] [lfr_mu0.5_0] k=5: 100/200 cascade test xong (2282s)
+[09:32:17] [lfr_mu0.5_2] k=5: 100/200 cascade test xong (2263s)
+[09:32:55] [lfr_mu0.5_3] k=3: 150/200 cascade test xong (2292s)
+[09:33:29] [lfr_mu0.5_1] k=3: 150/200 cascade test xong (2348s)
+[09:33:32] [lfr_mu0.3_1] k=3: 200/200 cascade test xong (2412s)
+[09:33:41] [lfr_mu0.3_1] k=5: p=0.1007, tỉ lệ cascade đạt 10-20% = 0.22
+[09:34:48] [lfr_mu0.3_1] k=5: val CommJordan chọn rho=1: ED=0.40 |k̂-k|=70.0
+[09:34:48] [lfr_mu0.3_1] k=5: val Jordan     chọn rho=1: ED=0.38 |k̂-k|=60.6
+[09:35:03] [lfr_mu0.3_2] k=5: 200/200 cascade test xong (2498s)
+[09:35:07] [email_eu] k=3: 200/200 cascade test xong (2368s)
+[09:35:08] [lfr_mu0.3_2] XONG: 34200 dòng, 2503s
+[09:35:08] --- Tiến độ: 6/16 đồ thị (42.1 phút) ---
+[09:35:41] [lfr_mu0.1_4] k=5: 50/200 cascade test xong (2549s)
+[09:35:41] [email_eu] k=5: p=0.0169, tỉ lệ cascade đạt 10-20% = 0.38
+[09:35:47] [lfr_mu0.1_3] k=5: 50/200 cascade test xong (2556s)
+[09:35:53] [lfr_mu0.3_4] k=5: 50/200 cascade test xong (2535s)
+[09:36:01] [lfr_mu0.5_4] k=3: 150/200 cascade test xong (2440s)
+[09:36:13] [email_eu] k=5: val CommJordan chọn rho=1: ED=0.52 |k̂-k|=32.7
+[09:36:13] [email_eu] k=5: val Jordan     chọn rho=1: ED=0.50 |k̂-k|=27.5
+[09:36:40] [lfr_mu0.5_0] k=5: 150/200 cascade test xong (2579s)
+[09:37:33] [lfr_mu0.5_2] k=5: 150/200 cascade test xong (2579s)
+[09:38:29] [lfr_mu0.5_3] k=3: 200/200 cascade test xong (2626s)
+[09:38:40] [lfr_mu0.5_3] k=5: p=0.0816, tỉ lệ cascade đạt 10-20% = 0.24
+[09:39:13] [lfr_mu0.5_3] k=5: val CommJordan chọn rho=1: ED=0.31 |k̂-k|=75.9
+[09:39:13] [lfr_mu0.5_3] k=5: val Jordan     chọn rho=1: ED=0.42 |k̂-k|=56.5
+[09:39:14] [lfr_mu0.5_1] k=3: 200/200 cascade test xong (2693s)
+[09:39:16] [lfr_mu0.3_1] k=5: 50/200 cascade test xong (2755s)
+[09:39:27] [lfr_mu0.5_1] k=5: p=0.0907, tỉ lệ cascade đạt 10-20% = 0.23
+[09:39:33] [lfr_mu0.1_4] k=5: 100/200 cascade test xong (2781s)
+[09:39:42] [lfr_mu0.1_3] k=5: 100/200 cascade test xong (2791s)
+[09:39:57] [lfr_mu0.3_4] k=5: 100/200 cascade test xong (2779s)
+[09:40:05] [lfr_mu0.5_1] k=5: val CommJordan chọn rho=1: ED=0.34 |k̂-k|=80.8
+[09:40:05] [lfr_mu0.5_1] k=5: val Jordan     chọn rho=1: ED=0.42 |k̂-k|=61.2
+[09:40:10] [email_eu] k=5: 50/200 cascade test xong (2670s)
+[09:41:20] [lfr_mu0.5_4] k=3: 200/200 cascade test xong (2759s)
+[09:41:31] [lfr_mu0.5_4] k=5: p=0.0907, tỉ lệ cascade đạt 10-20% = 0.26
+[09:41:52] [lfr_mu0.5_0] k=5: 200/200 cascade test xong (2891s)
+[09:41:57] [lfr_mu0.5_0] XONG: 34200 dòng, 2896s
+[09:41:57] --- Tiến độ: 7/16 đồ thị (48.9 phút) ---
+[09:42:08] [lfr_mu0.5_4] k=5: val CommJordan chọn rho=1: ED=0.30 |k̂-k|=88.5
+[09:42:08] [lfr_mu0.5_4] k=5: val Jordan     chọn rho=1: ED=0.46 |k̂-k|=63.7
+[09:42:21] [lfr_mu0.5_2] k=5: 200/200 cascade test xong (2867s)
+[09:42:25] [lfr_mu0.5_2] XONG: 34200 dòng, 2871s
+[09:42:25] --- Tiến độ: 8/16 đồ thị (49.4 phút) ---
+[09:43:07] [lfr_mu0.1_4] k=5: 150/200 cascade test xong (2995s)
+[09:43:16] [lfr_mu0.1_3] k=5: 150/200 cascade test xong (3004s)
+[09:43:27] [lfr_mu0.3_1] k=5: 100/200 cascade test xong (3006s)
+[09:43:30] [lfr_mu0.5_3] k=5: 50/200 cascade test xong (2927s)
+[09:43:35] [lfr_mu0.3_4] k=5: 150/200 cascade test xong (2997s)
+[09:43:49] [email_eu] k=5: 100/200 cascade test xong (2890s)
+[09:44:35] [lfr_mu0.5_1] k=5: 50/200 cascade test xong (3014s)
+[09:46:07] [lfr_mu0.1_4] k=5: 200/200 cascade test xong (3175s)
+[09:46:09] [lfr_mu0.1_4] XONG: 34200 dòng, 3177s
+[09:46:09] --- Tiến độ: 9/16 đồ thị (53.1 phút) ---
+[09:46:13] [lfr_mu0.5_4] k=5: 50/200 cascade test xong (3052s)
+[09:46:17] [lfr_mu0.1_3] k=5: 200/200 cascade test xong (3185s)
+[09:46:19] [lfr_mu0.1_3] XONG: 34200 dòng, 3187s
+[09:46:19] --- Tiến độ: 10/16 đồ thị (53.3 phút) ---
+[09:46:40] [lfr_mu0.3_4] k=5: 200/200 cascade test xong (3182s)
+[09:46:43] [lfr_mu0.3_4] XONG: 34200 dòng, 3186s
+[09:46:43] --- Tiến độ: 11/16 đồ thị (53.7 phút) ---
+[09:46:45] [lfr_mu0.3_1] k=5: 150/200 cascade test xong (3205s)
+[09:46:55] [email_eu] k=5: 150/200 cascade test xong (3076s)
+[09:46:59] [lfr_mu0.5_3] k=5: 100/200 cascade test xong (3136s)
+[09:47:52] [lfr_mu0.5_1] k=5: 100/200 cascade test xong (3211s)
+[09:48:58] [email_eu] k=5: 200/200 cascade test xong (3199s)
+[09:49:01] [email_eu] XONG: 34200 dòng, 3202s
+[09:49:01] --- Tiến độ: 12/16 đồ thị (56.0 phút) ---
+[09:49:04] [lfr_mu0.5_4] k=5: 100/200 cascade test xong (3223s)
+[09:49:14] [lfr_mu0.3_1] k=5: 200/200 cascade test xong (3354s)
+[09:49:16] [lfr_mu0.3_1] XONG: 34200 dòng, 3356s
+[09:49:16] --- Tiến độ: 13/16 đồ thị (56.2 phút) ---
+[09:49:22] [lfr_mu0.5_3] k=5: 150/200 cascade test xong (3279s)
+[09:50:00] [lfr_mu0.5_1] k=5: 150/200 cascade test xong (3339s)
+[09:50:53] [lfr_mu0.5_4] k=5: 150/200 cascade test xong (3332s)
+[09:50:55] [lfr_mu0.5_3] k=5: 200/200 cascade test xong (3372s)
+[09:50:57] [lfr_mu0.5_3] XONG: 34200 dòng, 3374s
+[09:50:57] --- Tiến độ: 14/16 đồ thị (57.9 phút) ---
+[09:51:27] [lfr_mu0.5_1] k=5: 200/200 cascade test xong (3426s)
+[09:51:29] [lfr_mu0.5_1] XONG: 34200 dòng, 3428s
+[09:51:29] --- Tiến độ: 15/16 đồ thị (58.4 phút) ---
+[09:52:01] [lfr_mu0.5_4] k=5: 200/200 cascade test xong (3400s)
+[09:52:02] [lfr_mu0.5_4] XONG: 34200 dòng, 3401s
+[09:52:02] --- Tiến độ: 16/16 đồ thị (59.0 phút) ---
+[09:52:04] === RUN xong sau 59.0 phút ===

@@ -1,0 +1,10 @@
+{
+ "n_tree": 500,
+ "k": 1,
+ "p": 0.9,
+ "accept_rate": 0.25,
+ "ed_mean": 6.82,
+ "ed_median": 7.0,
+ "pct_ed0": 3.0,
+ "pass": false
+}
