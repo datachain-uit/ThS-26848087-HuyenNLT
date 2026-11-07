@@ -1,0 +1,51 @@
+{
+ "tree": {
+  "si_t": {
+   "ed_mean": 0.07,
+   "pct_ed0": 93.0,
+   "n": 100,
+   "pass_": true
+  },
+  "ic_T": {
+   "ed_mean": 0.32,
+   "pct_ed0": 68.0,
+   "n": 100,
+   "pass_": true
+  }
+ },
+ "V2": {
+  "si_t": {
+   "ed_random": 2.1016180146666668,
+   "ed_default": 1.8790277282291665,
+   "pass_": true
+  },
+  "ic_T": {
+   "ed_random": 2.3490638995000004,
+   "ed_default": 2.169756934479167,
+   "pass_": true
+  }
+ },
+ "summary": {
+  "si_t": {
+   "valid": true,
+   "ha_graphs": 0,
+   "ha_strict": 0,
+   "ha_naive": 0,
+   "n_graphs": 16,
+   "hb_graphs": 8,
+   "ha_pass": false,
+   "hb_pass": false
+  },
+  "ic_T": {
+   "valid": true,
+   "ha_graphs": 0,
+   "ha_strict": 0,
+   "ha_naive": 0,
+   "n_graphs": 16,
+   "hb_graphs": 6,
+   "ha_pass": false,
+   "hb_pass": false
+  }
+ },
+ "verdict": "NO-GO (H-a không đạt ở cả hai mô hình quan sát hợp lệ)"
+}

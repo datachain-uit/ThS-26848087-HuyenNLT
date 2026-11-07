@@ -1,0 +1,14 @@
+{
+ "si_t": {
+  "ed_mean": 0.07,
+  "pct_ed0": 93.0,
+  "n": 100,
+  "pass_": true
+ },
+ "ic_T": {
+  "ed_mean": 0.32,
+  "pct_ed0": 68.0,
+  "n": 100,
+  "pass_": true
+ }
+}
