@@ -1,0 +1,16 @@
+# Colab, Tesla T4, 11/11/2026 (giờ UTC). Notebook: colab/GraphSL_va_loi_colab.ipynb, ô 7 sửa thành:
+#   run_all('va', ['karate', 'netscience'], ['IVGD'], modes=False)
+# Drive không gắn (hết thời gian chờ cấp quyền) → lưu tạm /content/GraphSL_colab, chép về đây từ output của notebook.
+[16:11:52] KIỂM TRA karate     gốc: tỉ lệ nhiễm TB=0.862 | vector nhiễm giống hệt giữa cascade: True | AUC(vector nhiễm vs nguồn)=0.823
+[16:11:52] KIỂM TRA karate     vá : tỉ lệ nhiễm TB=0.843 | vector nhiễm giống hệt giữa cascade: False | AUC(vector nhiễm vs nguồn)=0.875
+[16:11:52] KIỂM TRA jazz       gốc: tỉ lệ nhiễm TB=0.977 | vector nhiễm giống hệt giữa cascade: True | AUC(vector nhiễm vs nguồn)=0.547
+[16:11:53] KIỂM TRA jazz       vá : tỉ lệ nhiễm TB=0.979 | vector nhiễm giống hệt giữa cascade: False | AUC(vector nhiễm vs nguồn)=0.543
+[16:11:53] KIỂM TRA netscience gốc: tỉ lệ nhiễm TB=0.002 | vector nhiễm giống hệt giữa cascade: True | AUC(vector nhiễm vs nguồn)=0.498
+[16:11:54] KIỂM TRA netscience vá : tỉ lệ nhiễm TB=0.432 | vector nhiễm giống hệt giữa cascade: False | AUC(vector nhiễm vs nguồn)=0.958
+[16:12:14] == [va] karate (n=34): 60 train / 40 test
+[16:12:14]    IVGD: đang huấn luyện...
+[16:13:39]    IVGD: acc=0.899 pr=0.754 re=0.717 f1=0.724 auc=0.909 | train 85s, test 1s
+[16:13:56] == [va] netscience (n=1589): 60 train / 40 test
+[16:13:56]    IVGD: đang huấn luyện...
+[16:16:16]    IVGD: acc=0.878 pr=0.633 re=0.924 f1=0.751 auc=0.943 | train 138s, test 1s
+# Ghi chú: loss IVGD trên NetScience có các đỉnh bất thường (epoch 140: 1.705; epoch 190: 16.848) giữa các giá trị ~0.44.
