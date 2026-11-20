@@ -1,0 +1,21 @@
+"""Lối tắt: bấm Run (▶) để chạy J-K19 (28_JK19_tron_co_che): chạy thử rồi chạy chính. Chạy lại được nếu bị dừng."""
+import os, subprocess, sys
+try:
+    sys.stdout.reconfigure(encoding="utf-8")
+except Exception:
+    pass
+here = os.path.dirname(os.path.abspath(__file__))
+d = os.path.abspath(os.path.join(here, "..", "..", "..", "2_huong_conformal_theo_so_nguon", "7_KSU_mk_ho_co_che", "JK19_JK19b"))
+env = dict(os.environ, PYTHONIOENCODING="utf-8", PYTHONUNBUFFERED="1")
+res = os.path.join(d, "results")
+def call(*args):
+    print("=== jk19.py", *args, flush=True)
+    rc = subprocess.call([sys.executable, "-u", os.path.join(d, "jk19.py"), *args], env=env)
+    if rc != 0:
+        print(f"LỖI (mã {rc}) — dừng.", flush=True); sys.exit(rc)
+if not os.path.exists(os.path.join(res, "JK19_smoke.pkl")):
+    call("--smoke")
+if not os.path.exists(os.path.join(res, "JK19_REPORT.md")):
+    call()
+open(os.path.join(res, "JK19_XONG.txt"), "w").write("hoan tat\n")
+print("J-K19 HOÀN TẤT", flush=True)
