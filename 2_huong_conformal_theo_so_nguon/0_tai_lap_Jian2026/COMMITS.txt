@@ -1,0 +1,11 @@
+Nguồn mã dùng để tái lập (clone ngày 18/11/2026, không đưa lên repo này):
+
+cnsd — Jian et al., "Conformal Prediction for Multi-Source Detection on a Network", AAAI 2026
+  https://github.com/xcjian/Conformalized-Network-Source-Detection
+  commit e861d51
+  Chỉ lấy code; bỏ ~20 GB dữ liệu/kết quả của repo.
+
+sib — https://github.com/sibyl-team/sib
+  commit: Không xác định.
+
+Giải nén: chạy giai_nen.py (cần cnsd.tgz, sib.tgz đặt cùng thư mục).
