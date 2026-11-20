@@ -1,0 +1,29 @@
+[23:10:58] Bắt đầu E0x : 4 đồ thị x 6 f; tối đa 30 seed; 21 tiến trình; hạn 18/11 06:30
+[23:10:58] SHA-256: {'E0X_PLAN.md': '8f2b6da6caf22f8a', 'e0x.py': 'e0089f9195afb0f9', '../5_E0_ho_so_da_thang/e0.py': 'fd33ebda20b28cf2'}
+[23:10:58] Đã có betweenness của 4 đồ thị.
+[02:17:15] Xong seed 0 (92 phần mới, 186.3 phút từ đầu).
+[02:46:39] Xong seed 1 (112 phần mới, 215.7 phút từ đầu).
+[03:57:55] Xong seed 2 (137 phần mới, 286.9 phút từ đầu).
+[04:35:51] Dừng nhận seed mới trước seed 8: dự báo xong lúc 06:55, quá hạn trừ dự phòng.
+[05:04:09] Xong seed 3 (161 phần mới, 353.2 phút từ đầu).
+[05:49:29] Xong seed 4 (185 phần mới, 398.5 phút từ đầu).
+[06:02:40] Xong seed 5 (190 phần mới, 411.7 phút từ đầu).
+[06:07:00] Xong seed 6 (191 phần mới, 416.0 phút từ đầu).
+[06:09:25] Xong seed 7 (192 phần mới, 418.5 phút từ đầu).
+[06:10:02] Phân tích 8 seed hoàn tất ...
+[06:10:05] Kết thúc. E0c: XÁC NHẬN; E0a (Ha2): TRƯỢT. Báo cáo: c:\Users\ad\Documents\Coding_KLTN\6_E0x_so_cum_va_vung_dinh_danh\results\E0X_REPORT.md
+[08:12:53] Bắt đầu E0x : 4 đồ thị x 6 f; tối đa 10 seed; 21 tiến trình; hạn 18/11 23:59
+[08:12:53] SHA-256: {'E0X_PLAN.md': '8f2b6da6caf22f8a', 'e0x.py': 'e0089f9195afb0f9', '../5_E0_ho_so_da_thang/e0.py': 'fd33ebda20b28cf2'}
+[08:12:53] Đã có betweenness của 4 đồ thị.
+[08:13:06] Xong seed 0 (0 phần mới, 0.2 phút từ đầu).
+[08:13:06] Xong seed 1 (0 phần mới, 0.2 phút từ đầu).
+[08:13:06] Xong seed 2 (0 phần mới, 0.2 phút từ đầu).
+[08:13:06] Xong seed 3 (0 phần mới, 0.2 phút từ đầu).
+[08:13:06] Xong seed 4 (0 phần mới, 0.2 phút từ đầu).
+[08:13:06] Xong seed 5 (0 phần mới, 0.2 phút từ đầu).
+[08:13:07] Xong seed 6 (0 phần mới, 0.2 phút từ đầu).
+[08:13:07] Xong seed 7 (0 phần mới, 0.2 phút từ đầu).
+[09:51:10] Xong seed 8 (47 phần mới, 98.3 phút từ đầu).
+[09:51:57] Xong seed 9 (48 phần mới, 99.1 phút từ đầu).
+[09:52:10] Phân tích 10 seed hoàn tất ...
+[09:52:13] Kết thúc. E0c: XÁC NHẬN; E0a (Ha2): TRƯỢT. Báo cáo: c:\Users\ad\Documents\Coding_KLTN\6_E0x_so_cum_va_vung_dinh_danh\results\E0X_REPORT.md
