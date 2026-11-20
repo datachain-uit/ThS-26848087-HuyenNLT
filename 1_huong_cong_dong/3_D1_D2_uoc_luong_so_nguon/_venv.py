@@ -12,7 +12,7 @@ import subprocess
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-VENV_PY = os.path.join(HERE, "..", "1_P6_chon_phan_hoach", "H0", ".venv", "Scripts" if os.name == "nt" else "bin",
+VENV_PY = os.path.join(HERE, "..", "..", "1_huong_cong_dong", "1_P6_chon_phan_hoach", "H0", ".venv", "Scripts" if os.name == "nt" else "bin",
                        "python.exe" if os.name == "nt" else "python")
 
 
@@ -23,7 +23,7 @@ def ensure():
     if os.path.abspath(sys.executable).lower() == os.path.abspath(VENV_PY).lower():
         return
     if not os.path.exists(VENV_PY):
-        print("Chưa có môi trường .venv. Hãy chạy 1_P6_chon_phan_hoach/H0/00_setup_env.py trước (dùng chung .venv của H0).", flush=True)
+        print("Chưa có môi trường .venv. Hãy chạy 1_huong_cong_dong/1_P6_chon_phan_hoach/H0/00_setup_env.py trước (dùng chung .venv của H0).", flush=True)
         sys.exit(1)
     env = dict(os.environ, PYTHONIOENCODING="utf-8", PYTHONUNBUFFERED="1")
     sys.exit(subprocess.call([VENV_PY, "-u", os.path.abspath(sys.argv[0])] + sys.argv[1:], env=env))

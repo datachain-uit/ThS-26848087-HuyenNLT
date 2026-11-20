@@ -3,16 +3,18 @@ __pycache__/
 *.pyc
 *.tmp
 **/smoke/
-1_P6_chon_phan_hoach/*/results/raw/
+1_huong_cong_dong/1_P6_chon_phan_hoach/*/results/raw/
 
-# Repo/dữ liệu bên thứ ba (nguồn ghi trong 8_tai_lap_paper/COMMITS.txt)
-8_tai_lap_paper/cnsd/
-8_tai_lap_paper/_cnsd_dang_do/
-8_tai_lap_paper/sib/
-8_tai_lap_paper/dsi_adit/
+# Repo/dữ liệu bên thứ ba (nguồn ghi trong 2_huong_conformal_theo_so_nguon/0_tai_lap_Jian2026/COMMITS.txt)
+2_huong_conformal_theo_so_nguon/0_tai_lap_Jian2026/cnsd/
+2_huong_conformal_theo_so_nguon/0_tai_lap_Jian2026/_cnsd_dang_do/
+2_huong_conformal_theo_so_nguon/0_tai_lap_Jian2026/sib/
+2_huong_conformal_theo_so_nguon/0_tai_lap_Jian2026/dsi_adit/
 *.tgz
 # Bản chạy thử và file tạm
 **/_ban_chay_thu_may_ao/
 _tmp_*.py
-24_KIEM_TRA/chuoi.*
-4_P6F/NHAP_EMAIL_GUI_CO.md
+2_huong_conformal_theo_so_nguon/8_kiem_tra_doc_lap/chuoi.*
+1_huong_cong_dong/4_P6F_hieu_chinh_ti_le_nhiem/NHAP_EMAIL_GUI_CO.md
+# Nhật ký làm việc: giữ trên máy, không đưa lên repo
+NHAT_KY_LAM_VIEC.md
