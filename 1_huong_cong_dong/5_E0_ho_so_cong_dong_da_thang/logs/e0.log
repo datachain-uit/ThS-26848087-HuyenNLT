@@ -1,0 +1,20 @@
+[02:07:35] Bắt đầu E0 (đầy đủ): 4 đồ thị x 2 f x 5 k x (60+60) cascade; seed 9191; Windows
+[02:07:54] Xong ô lfr_mu0.1_0 f=5%: 600 cascade (19s)
+[02:08:07] Xong ô lfr_mu0.3_0 f=5%: 600 cascade (33s)
+[02:08:28] Xong ô lfr_mu0.1_0 f=15%: 600 cascade (53s)
+[02:08:42] Xong ô lfr_mu0.5_0 f=5%: 600 cascade (67s)
+[02:08:56] Xong ô lfr_mu0.3_0 f=15%: 600 cascade (81s)
+[02:09:34] Xong ô email_eu f=5%: 600 cascade (119s)
+[02:09:46] Xong ô lfr_mu0.5_0 f=15%: 600 cascade (131s)
+[02:11:21] Xong ô email_eu f=15%: 600 cascade (226s)
+[02:11:30] Kết thúc. Kết luận: KHÔNG KHẢ QUAN. Báo cáo: results\E0_REPORT.md
+[02:11:34] Bắt đầu E0 (đầy đủ): 4 đồ thị x 2 f x 5 k x (60+60) cascade; seed 9191; Windows
+[02:11:36] Xong ô lfr_mu0.1_0 f=5%: 600 cascade (3s)
+[02:11:36] Xong ô lfr_mu0.1_0 f=15%: 600 cascade (3s)
+[02:11:36] Xong ô lfr_mu0.3_0 f=5%: 600 cascade (3s)
+[02:11:37] Xong ô lfr_mu0.5_0 f=5%: 600 cascade (3s)
+[02:11:37] Xong ô lfr_mu0.3_0 f=15%: 600 cascade (3s)
+[02:11:37] Xong ô lfr_mu0.5_0 f=15%: 600 cascade (3s)
+[02:11:37] Xong ô email_eu f=5%: 600 cascade (3s)
+[02:11:37] Xong ô email_eu f=15%: 600 cascade (3s)
+[02:11:48] Kết thúc. Kết luận: KHÔNG KHẢ QUAN. Báo cáo: results\E0_REPORT.md
