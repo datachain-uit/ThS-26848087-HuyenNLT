@@ -1,0 +1,6 @@
+Mô phỏng: 8000 mẫu; đúng kích thước & nguồn trong vùng nhiễm & nguồn không trùng: 8000/8000
+Phân bố k (1..15): [263, 395, 475, 495, 565, 574, 567, 569, 625, 596, 584, 569, 609, 569, 545]
+G: phủ biên 0.912; phủ k xấu nhất 0.42 (k=1); kích thước 11.0
+O: phủ biên 0.911; phủ k xấu nhất 0.89 (k=3); kích thước 11.2
+WCP: phủ biên 0.916; phủ k xấu nhất 0.87 (k=7); kích thước 11.7
+KSU*: phủ biên 0.950; phủ k xấu nhất 0.91 (k=1); kích thước 13.7

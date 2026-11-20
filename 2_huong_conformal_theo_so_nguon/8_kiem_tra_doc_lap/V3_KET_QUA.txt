@@ -1,0 +1,20 @@
+lfr10k_mu0.1_1 SI 25: |K̂| gộp 1.63; KSU*/WCP (theo tổng kích thước) 1.09
+lfr10k_mu0.1_1 IC 25: |K̂| gộp 1.85; KSU*/WCP (theo tổng kích thước) 1.12
+lfr10k_mu0.1_1 SIR 25: |K̂| gộp 1.71; KSU*/WCP (theo tổng kích thước) 1.12
+lfr10k_mu0.1_1 SI 100: |K̂| gộp 3.65; KSU*/WCP (theo tổng kích thước) 1.23
+lfr10k_mu0.1_1 IC 100: |K̂| gộp 4.18; KSU*/WCP (theo tổng kích thước) 1.33
+lfr10k_mu0.1_1 SIR 100: |K̂| gộp 3.47; KSU*/WCP (theo tổng kích thước) 1.29
+lfr10k_mu0.1_1 SI 300: |K̂| gộp 6.83; KSU*/WCP (theo tổng kích thước) 1.36
+lfr10k_mu0.1_1 IC 300: |K̂| gộp 7.64; KSU*/WCP (theo tổng kích thước) 1.78
+lfr10k_mu0.1_1 SIR 300: |K̂| gộp 7.02; KSU*/WCP (theo tổng kích thước) 1.44
+lfr10k_mu0.3_1 SI 25: |K̂| gộp 1.67; KSU*/WCP (theo tổng kích thước) 1.07
+lfr10k_mu0.3_1 IC 25: |K̂| gộp 1.88; KSU*/WCP (theo tổng kích thước) 1.14
+lfr10k_mu0.3_1 SIR 25: |K̂| gộp 1.66; KSU*/WCP (theo tổng kích thước) 1.12
+lfr10k_mu0.3_1 SI 100: |K̂| gộp 4.30; KSU*/WCP (theo tổng kích thước) 1.26
+lfr10k_mu0.3_1 IC 100: |K̂| gộp 5.10; KSU*/WCP (theo tổng kích thước) 1.40
+lfr10k_mu0.3_1 SIR 100: |K̂| gộp 4.52; KSU*/WCP (theo tổng kích thước) 1.27
+lfr10k_mu0.3_1 SI 300: |K̂| gộp 8.44; KSU*/WCP (theo tổng kích thước) 1.29
+lfr10k_mu0.3_1 IC 300: |K̂| gộp 9.34; KSU*/WCP (theo tổng kích thước) 1.92
+lfr10k_mu0.3_1 SIR 300: |K̂| gộp 9.05; KSU*/WCP (theo tổng kích thước) 1.72
+
+Spearman ρ(|K̂| gộp, KSU*/WCP) = 0.899; p hoán vị một phía = 0.0001

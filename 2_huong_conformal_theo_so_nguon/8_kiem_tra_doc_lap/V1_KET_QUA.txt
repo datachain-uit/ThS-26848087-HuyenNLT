@@ -1,0 +1,18 @@
+## highSchool R0 1-15
+G: phủ biên 0.901; phủ k xấu nhất 0.19 (k=1); kích thước 6.6
+O: phủ biên 0.906; phủ k xấu nhất 0.88 (k=10); kích thước 46.9
+WCP: phủ biên 0.910; phủ k xấu nhất 0.80 (k=4); kích thước 50.2
+KSU*: phủ biên 0.961; phủ k xấu nhất 0.91 (k=2); kích thước 48.7
+
+## sfhh R0 21-35
+G: phủ biên 0.898; phủ k xấu nhất 0.33 (k=1); kích thước 10.7
+O: phủ biên 0.905; phủ k xấu nhất 0.88 (k=7); kích thước 34.4
+WCP: phủ biên 0.910; phủ k xấu nhất 0.79 (k=4); kích thước 34.6
+KSU*: phủ biên 0.977; phủ k xấu nhất 0.93 (k=4); kích thước 40.3
+
+## bkFratB R0 11-25
+G: phủ biên 0.902; phủ k xấu nhất 0.36 (k=1); kích thước 9.0
+O: phủ biên 0.912; phủ k xấu nhất 0.89 (k=5); kích thước 11.2
+WCP: phủ biên 0.918; phủ k xấu nhất 0.82 (k=4); kích thước 11.7
+KSU*: phủ biên 0.983; phủ k xấu nhất 0.95 (k=4); kích thước 18.5
+
