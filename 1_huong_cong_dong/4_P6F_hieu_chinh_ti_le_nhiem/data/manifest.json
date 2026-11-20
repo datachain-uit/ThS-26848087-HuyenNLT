@@ -1,0 +1,57 @@
+{
+ "lfr10k_mu0.1_0": {
+  "kind": "lfr",
+  "mu": 0.1,
+  "seed": 1632545172,
+  "attempt": 0,
+  "sha256_edges": "18cb9c876d87c97f6bfff0892e24fc930d5b3542a9244c259392e5d8d2ffeb5e"
+ },
+ "lfr10k_mu0.1_1": {
+  "kind": "lfr",
+  "mu": 0.1,
+  "seed": 288449284,
+  "attempt": 0,
+  "sha256_edges": "f8c2bfd5592983f58b1fd0653d9296c7fadc217c36a151c51ba66f86af99b960"
+ },
+ "lfr10k_mu0.1_2": {
+  "kind": "lfr",
+  "mu": 0.1,
+  "seed": 1032975468,
+  "attempt": 0,
+  "sha256_edges": "51187aaa6c3916245d8a73a5c67e5d99d27e80dab39f9fca456d69c69025fd06"
+ },
+ "lfr10k_mu0.3_0": {
+  "kind": "lfr",
+  "mu": 0.3,
+  "seed": 3712312264,
+  "attempt": 0,
+  "sha256_edges": "cf2e09e6b16246c44995c9d4f545596fc682ddd18ca8a84045eaa8c387f1e308"
+ },
+ "lfr10k_mu0.3_1": {
+  "kind": "lfr",
+  "mu": 0.3,
+  "seed": 697642211,
+  "attempt": 0,
+  "sha256_edges": "02679b6930e4f6c2ee169610fafd2c36673c078b866196076875aaffd9d8f827"
+ },
+ "lfr10k_mu0.3_2": {
+  "kind": "lfr",
+  "mu": 0.3,
+  "seed": 2807297689,
+  "attempt": 0,
+  "sha256_edges": "fe5c23df7aa8eb8ee8a9fe136cce4a08f5e25e24b38854048fcaea92f253737a"
+ },
+ "power_grid": {
+  "kind": "real",
+  "source": "GraphSL data/power_grid (Watts & Strogatz 1998)",
+  "sha256_edges": "bd2fc00f6be180993b8162d89dcb2355c22e51a46136b6cef155e101aaeca4b4"
+ },
+ "ca_grqc": {
+  "kind": "real",
+  "source": "https://raw.githubusercontent.com/suanrong/SDNE/master/GraphData/ca-Grqc.txt (LCC)",
+  "n_all": 5242,
+  "m_all_incl_selfloops": 14496,
+  "khop_thong_ke_SNAP": true,
+  "sha256_edges": "a105e3249569da10722d5b18b5953c5144f41c1af54b89edb2bd9023425e138f"
+ }
+}
