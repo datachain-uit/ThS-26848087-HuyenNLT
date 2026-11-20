@@ -4,3 +4,15 @@ __pycache__/
 *.tmp
 **/smoke/
 1_P6_chon_phan_hoach/*/results/raw/
+
+# Repo/dữ liệu bên thứ ba (nguồn ghi trong 8_tai_lap_paper/COMMITS.txt)
+8_tai_lap_paper/cnsd/
+8_tai_lap_paper/_cnsd_dang_do/
+8_tai_lap_paper/sib/
+8_tai_lap_paper/dsi_adit/
+*.tgz
+# Bản chạy thử và file tạm
+**/_ban_chay_thu_may_ao/
+_tmp_*.py
+24_KIEM_TRA/chuoi.*
+4_P6F/NHAP_EMAIL_GUI_CO.md
